@@ -2,7 +2,7 @@
 
 TwinTalk is a real-time messaging application focused on providing a seamless one-on-one chat experience. Built with modern web technologies, it offers a clean interface and essential messaging features like typing indicators, read receipts, and online status indicators.
 
-![TwinTalk Screenshot](/assets/images/app-landing-screenshot.png)
+![TwinTalk Screenshot](public/assets/images/app-landing-screenshot.png)
 
 ## Features
 
