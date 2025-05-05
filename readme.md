@@ -62,8 +62,8 @@ Follow these steps to get TwinTalk running on your local machine:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/twintalk.git
-cd twintalk
+git clone https://github.com/kavindadimuthu/Realtime-chatapp.git
+cd Realtime-chatapp
 ```
 
 ### 2. Install dependencies
@@ -79,11 +79,9 @@ composer install
 3. Copy .env.example to .env and update with your database credentials:
 
 ```bash
-DB_HOST=localhost
-DB_PORT=3306
-DB_DATABASE=twintalk
-DB_USERNAME=root
-DB_PASSWORD=yourpassword
+DB_DSN = mysql:localhost=db;port=3306;dbname=twintalk
+DB_USER = root
+DB_PASSWORD =
 ```
 
 ### 4. Configure web server
