@@ -14,8 +14,8 @@ export default class WebSocketManager {
     // Connect to the WebSocket server
     connect() {
         const protocol = window.location.protocol === "https:" ? "wss:" : "ws:";
-        const wsUrl = `${protocol}//${window.location.hostname}:8080`;
-        // const wsUrl = `https://3bf3-45-121-88-169.ngrok-free.app`;
+        // const wsUrl = `${protocol}//${window.location.hostname}:8080`;
+        const wsUrl = `ws://18.142.56.190:8080`; // Updated to use the specific IP address
 
         this.socket = new WebSocket(wsUrl);
 

@@ -19,7 +19,6 @@ export default class EventManager {
         this.profileDropdownBtn = document.getElementById("profile-dropdown-btn");
         this.profileDropdown = document.getElementById("profile-dropdown");
         this.logoutCurrentDevice = document.getElementById("logout-current-device");
-        this.logoutAllDevices = document.getElementById("logout-all-devices");
         this.mobileBackButton = document.getElementById("mobile-back-button");
         this.sidebar = document.getElementById("sidebar");
         this.chatContainer = document.querySelector(".chat-container");
@@ -579,11 +578,6 @@ export default class EventManager {
             e.preventDefault();
             this.handleLogout(false);
         });
-        
-        // this.logoutAllDevices.addEventListener("click", (e) => {
-        //     e.preventDefault();
-        //     this.handleLogout(true);
-        // });
     }
     
     // Handle logout process
