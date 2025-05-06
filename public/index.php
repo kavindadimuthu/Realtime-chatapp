@@ -12,6 +12,9 @@ $dotenv->load();
 // Start the session
 SessionHelper::startSession();
 
+error_log('Session started'); // Debugging line
+error_log('Application instance created');
+
 // Create the application instance
 $app = new Application();
 
