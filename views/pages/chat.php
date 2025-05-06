@@ -26,7 +26,7 @@
                     <div class="profile-dropdown" id="profile-dropdown">
                         <ul>
                             <li><a href="/profile"><i class="fas fa-user"></i> Profile</a></li>
-                            <li><a href="#" id="logout-all-devices"><i class="fas fa-sign-out-alt"></i> Logout from all devices</a></li>
+                            <!-- <li><a href="#" id="logout-all-devices"><i class="fas fa-sign-out-alt"></i> Logout from all devices</a></li> -->
                             <li><a href="#" id="logout-current-device"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
                         </ul>
                     </div>

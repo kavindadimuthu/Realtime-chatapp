@@ -580,10 +580,10 @@ export default class EventManager {
             this.handleLogout(false);
         });
         
-        this.logoutAllDevices.addEventListener("click", (e) => {
-            e.preventDefault();
-            this.handleLogout(true);
-        });
+        // this.logoutAllDevices.addEventListener("click", (e) => {
+        //     e.preventDefault();
+        //     this.handleLogout(true);
+        // });
     }
     
     // Handle logout process
